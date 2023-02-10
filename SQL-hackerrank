@@ -32,4 +32,6 @@ SELECT
   END as Triangle_Type
 FROM TRIANGLES;
 
-4. 
+4. Query the average population for all cities in CITY, rounded down to the nearest integer.
+ SELECT FLOOR(AVG(Population))
+ FROM CITY;
